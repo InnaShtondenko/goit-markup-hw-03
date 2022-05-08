@@ -117,7 +117,7 @@ p, h1, h2, h3, h4, h5, h6, ul {
     color: #2196F3;
 }
 
-.hero {
+.hero-section {
     padding-top: 200px;
     padding-bottom: 200px;
     background-color: #2F303A;
@@ -134,24 +134,25 @@ p, h1, h2, h3, h4, h5, h6, ul {
     margin: 0 auto 30px;
     max-width: 696px;
 }
-
-.button-order {
+.hero-section .button-order {
     display: inline-block;
     font-weight: 700;
     font-size: 16px;
-    color: #FFFFFF;
-    background-color: #2196F3;
-    width: 200px;
-    height: 50px;
-    border-radius: 4px;
-    line-height: 1.88;
+    padding: 10px 32px;
+    border: none;
+    line-height: 30px;
     text-align: center;
-    letter-spacing: 0.06em;
+    background-color: #2196F3;
+    color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
     cursor: pointer;
 }
-.button-order>div {
-    margin-top: 10px;
+.hero-section .button-order:hover,
+.hero-section .button-order:focus {
+    background-color: #188ce8;
 }
+
 .feature-list {
     display: flex;
 }
@@ -319,6 +320,7 @@ p, h1, h2, h3, h4, h5, h6, ul {
     background-color: #f5f4fa;
     border-width: 0px;
     color: #212121;
+    
 }
 
 .button-active,
