@@ -19,22 +19,25 @@ body {
     display: flex;
     align-items: center;
 }
+.page-header .logo {
+    margin-right: 93px;
+    margin-bottom: 0;
+
+}
 .logo {
     display: block;
-    padding-top: 24px;
-    padding-bottom: 25px;
-    margin-right: 93px;
     color: #212121;
     font-family: Raleway,
     sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.19;
+    line-height: 31px;
     letter-spacing: 0.03em;
     text-decoration: none;
 }
 .section {
-    padding: 94px
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .text-accent-logo {
 
@@ -77,6 +80,7 @@ p, h1, h2, h3, h4, h5, h6, ul {
     list-style: none;
     margin: 0px;
     padding: 0px;
+    font-size: 16px;
 }
 .link:hover,
 .link:focus {
@@ -229,7 +233,6 @@ p, h1, h2, h3, h4, h5, h6, ul {
     width: 270px;
     text-align: center;
     letter-spacing: 0.03em;
-    font-size: 16px;
     line-height: 19px;
     margin: 0;
 }
